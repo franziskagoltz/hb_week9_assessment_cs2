@@ -1,0 +1,24 @@
+
+Recursion:
+
+1. Recursion is when a function calls itself solve the problem the function is 
+   supposed to solve one or more times. 
+
+2. It is neccessary to have a base case, otherwise the function will call itself
+   continuously resulting in a traceback error, telling us the maxiumum recursion 
+   depth is exceeded.
+
+
+Graphs:
+
+1. A graph is an abstract data type that is used to record / show relationships between
+   things. 
+
+2. A graph is different from a tree, because nodes in a graph can loop around and
+   reference themselves or ealier nodes. A node can also have multiple parents in a graph, which
+   is something that is not allowed in a tree. 
+   A graph can be directed or undirected. If it is undirected, we can reference 
+   the earlier nodes as well. A tree is often used to show hierarchy, whereas a graph
+   doesn't have heirarchy, but us more often used to show relationships.
+
+3. A social network or walking/driving path recommendations to get from point A to point B
