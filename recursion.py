@@ -12,7 +12,9 @@ def print_item(my_list, i=0):
         3
 
     """
-    pass
+    while my_list:
+        print my_list[0]
+        my_list = my_list[1:]
 
 
 # 2. Write a function that uses recursion to print each node in a tree.
@@ -83,8 +85,8 @@ def num_nodes(tree):
         >>> num_nodes(one)
         6
     """
-
     pass
+
 
 #####################################################################
 # END OF ASSIGNMENT: You can ignore everything below.
