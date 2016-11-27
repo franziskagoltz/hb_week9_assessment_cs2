@@ -1,8 +1,8 @@
 
 Recursion:
 
-1. Recursion is when a function calls itself solve the problem the function is 
-   supposed to solve one or more times. 
+1. Recursion is when a function calls itself one or more times to solve the problem 
+   the function is supposed to solve. 
 
 2. It is neccessary to have a base case, otherwise the function will call itself
    continuously resulting in a traceback error, telling us the maxiumum recursion 
