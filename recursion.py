@@ -94,7 +94,13 @@ def num_nodes(tree):
         >>> num_nodes(one)
         6
     """
-    pass
+
+    count = 1
+
+    for child in tree.children:
+        count += num_nodes(child)
+
+    return count
 
 
 #####################################################################
